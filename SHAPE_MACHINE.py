@@ -104,7 +104,7 @@ def draw_eye(t, x, y, size):
 
 def draw_mouth(t, x, y, width, height=22, teeth=6):
     """
-    Draw a jack-o-lantern mouth with SHARP triangular teeth.
+    Draw a jack OH lantern mouth with sharp teeth.
     """
     seg = width / teeth
 
@@ -127,7 +127,7 @@ def draw_mouth(t, x, y, width, height=22, teeth=6):
 
 
 def draw_star(t, x, y, size):
-    """Draw a filled 5-point star."""
+    """Draw a filled 5 point star."""
     t.penup()
     t.goto(x, y)
     t.setheading(0)
